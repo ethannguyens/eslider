@@ -1,0 +1,22 @@
+//Written By Ethan Nguyen 13/01/2017
+//eslider
+
+.eslider {
+  width: 100%;
+  overflow: hidden;
+}
+
+.eslider_wrapper {
+  position: relative;
+  width: 999em;
+  transition: left .2s cubic-bezier(.42, 0, .58, 1);
+}
+
+.eslider_slide {
+  display: inline-block;
+  width: 100vh;
+}
+
+.eslider_slide-nav {
+  display: inline-block;
+}
